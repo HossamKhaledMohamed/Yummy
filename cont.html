@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="photo/logo.png" />
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/index.css">
+    <title>ContacUs</title>
+</head>
+<body class="bg-dark">
+      <!-- start navbar -->
+<section>
+    <div id="sliderBar">
+        <div class="box">
+                <div class="all d-flex justify-content-between flex-column p-2  h-100">
+                    <div class="lastUl">
+                        <ul class="p-4 " id="navMenu">
+                        <li class="pt-3"><a  href="search.html"      >Search</a></li>
+                        <li class="pt-3"><a data-list="a" href="Categories.html"  >Categories</a></li>
+                        <li class="pt-3"><a  href="area.html"        >Area</a></li>
+                        <li class="pt-3"><a  href="Ingredients.html" >Ingredients</a></li>
+                        <li class="pt-3"><a  href="cont.html"        >Contact Us</a></li>
+                    </ul>
+                    </div>
+                        <div class="lastIconSochal">
+                            <a><i class="fab fa-facebook-f"></i></a>
+                            <a><i class="fab fa-twitter"></i></a>
+                            <a><i class="fas fa-globe"></i></a>
+                            <div class="pt-3">
+                            <span class=" text-muted textcopy">Copyright Â© 2019 All Rights Reserved.</span>
+                        </div>
+                        </div>
+                </div>
+                
+            
+        </div>
+        <div class="allIcon d-flex justify-content-between flex-column p-1 bg-white">
+            <div class="logIcon ">
+                <a  href="index.html"><img src="photo/logo.png" alt=""   class="w-100"></a> 
+            </div>
+            <div class="xIcon">
+                <i class="fa fa-align-justify" ></i>
+            </div>
+            <div class="social-icon">
+                <div class="strip-lang">
+                    <span>
+                        <i class="fas fa-globe"></i>
+                    </span>
+                </div>
+                <div class="icon-share">
+                    <span>
+                        <i class="fas fa-share-alt"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        
+<!-- end navbar -->
+    <section id="contact" class="container w-60">
+		<div class="cartona p-1 ">
+			<h2 class="text-white mb-5">ContacUs....</h2>
+			<div class="row allI2nput">
+				<div class="col-md-6">
+					<div class="formGroup">
+						<input class="form-control shadow " onkeyup="SubmitValid()" id="name"placeholder="Enter Your Name">
+						<div class="alert alert-danger d-none" role="alert" id="namealert" >
+							Special Characters and Numbers not allowed
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="formGroup">
+						<input onkeyup="SubmitValid()" class="form-control" id="email" placeholder="Enter Email">
+						<div class="alert  alert-danger d-none" role="alert" id="emailalert" >
+							Enter valid email. *Ex: urEmail@gmail.com
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="formGroup">
+						<input onkeyup="SubmitValid()" class="form-control" id="phone" placeholder="Enter phone">
+						<div class="alert  alert-danger  d-none" id="phonealert" role="alert">
+							Enter valid Phone Number
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="formGroup">
+						<input onkeyup="SubmitValid()" class="form-control" id="age" placeholder="Enter Age">
+						<div class="alert  alert-danger  d-none" id="agealert" role="alert">
+							Enter valid Age
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="formGroup">
+						<input onkeyup="SubmitValid()" class="form-control" type="password" id="password"placeholder="Enter Password">
+						<div class="alert alert-danger  d-none" id="passwordalert" role="alert">
+							Enter valid password *Minimum eight characters, at least one letter and one number:*
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="formGroup">
+						<input onkeyup="SubmitValid()" class="form-control" type="password" id="repetPassword"
+							placeholder="Enter RePassword">
+						<div class="alert  alert-danger  d-none" id="repasswordalert" role="alert">
+							Enter valid Repassword
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+			<button type="submit" disabled id="submitBtn" class="btn btn-outline-danger">Submit</button>
+		</div>
+
+	</section>
+
+    <script src="Js/jquery/jquery-3.6.1.min.js"></script>
+    <script src="Js/AnimationNav.js"></script>
+    <script src="Js/cont.js"></script>
+</body>
+
+</html>
